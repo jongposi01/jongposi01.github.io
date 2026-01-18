@@ -1,4 +1,7 @@
-[
+{
+  "set": "geo_set_001",
+  "version": 1,
+  "problems": [
   {
     "id": "geo_001",
     "title": "직각삼각형의 변의 길이",
@@ -30,3 +33,4 @@
     "template": "problem_master.html"
   }
 ]
+}
