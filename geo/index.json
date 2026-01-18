@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "sets": [
+    { "file": "geo_set_01.json", "count": 50 },
+    { "file": "geo_set_02.json", "count": 50 }
+  ]
+}
