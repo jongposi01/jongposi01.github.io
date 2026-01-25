@@ -3,34 +3,21 @@
   "version": 1,
   "problems": [
   {
-    "id": "geo_101",
-    "title": "직각삼각형의 변의 길이 101",
-    "image": "geo_101.png",
-    "question": "삼각형 ABC에서 ∠A = 90°일 때 BC의 길이를 구하시오. 101",
-    "solution": [
-      "피타고라스 정리를 이용한다.",
-      "BC² = AB² + AC²",
-      "BC = 13"
-    ],
-    "tags": ["삼각형", "피타고라스"],
-    "grade": "중2",
-    "difficulty": 2,
-    "template": "problem_master.html"
-  },
-  {
-    "id": "geo_102",
-    "title": "직각삼각형의 변의 길이 102",
-    "image": "geo_102.png",
-    "question": "삼각형 ABC에서 ∠A = 90°일 때 BC의 길이를 구하시오102.",
-    "solution": [
-      "피타고라스 정리를 이용한다2.",
-      "BC² = AB² + AC²",
-      "BC = 13"
-    ],
-    "tags": ["삼각형", "피타고라스"],
-    "grade": "중2",
-    "difficulty": 2,
-    "template": "problem_master.html"
-  }
+  "id": "geo_301",
+  "title": "이등변 직각삼각형의 변의 길이",
+  "image": "geo_201.png",
+  "question": "다음 그림에서 ∠A = 90°, ∠B = 45°이다. AB = 6 cm일 때 AC의 길이를 구하시오.",
+  "solution": [
+    "삼각형 ABC는 직각삼각형이다.",
+    "∠B = 45°이므로 ∠C도 45°이다.",
+    "따라서 이등변 직각삼각형이다.",
+    "이등변 직각삼각형에서 두 직각변의 길이는 같다.",
+    "AB = AC 이므로 AC = 6 cm이다."
+  ],
+  "tags": ["직각삼각형", "이등변삼각형", "각의 크기"],
+  "grade": "중2",
+  "difficulty": 1,
+  "template": "problem_master.html"
+}
 ]
 }
