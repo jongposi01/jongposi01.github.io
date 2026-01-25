@@ -1,9 +1,9 @@
 {
-  "set": "geo_set_002",
+  "set": "geo_set_001",
   "version": 1,
   "problems": [
   {
-    "id": "geo_101",
+    "id": "geo_001",
     "title": "직각삼각형의 변의 길이 101",
     "image": "geo_101.png",
     "question": "삼각형 ABC에서 ∠A = 90°일 때 BC의 길이를 구하시오. 101",
@@ -18,7 +18,7 @@
     "template": "problem_master.html"
   },
   {
-    "id": "geo_102",
+    "id": "geo_002",
     "title": "직각삼각형의 변의 길이 102",
     "image": "geo_102.png",
     "question": "삼각형 ABC에서 ∠A = 90°일 때 BC의 길이를 구하시오102.",
