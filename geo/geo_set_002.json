@@ -1,10 +1,10 @@
 {
   "set": "geo_set_002",
-  "version": 6,
+  "version": 7,
   "problems": [
   {
   "id": "geo_001",
-  "title": "이등변 직각삼각형의 변의 길이",
+  "title": "이등변 직각삼각형의 변의 길이2p",
   "image": "geo_001.png",
   "question": "다음 그림에서 ∠A = 90°, ∠B = 45°이다. AB = 6 cm일 때 AC의 길이를 구하시오.",
   "solution": [
