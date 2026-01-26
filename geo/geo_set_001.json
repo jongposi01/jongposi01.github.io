@@ -1,23 +1,93 @@
 {
   "set": "geo_set_001",
-  "version": 5,
+  "version": 1,
   "problems": [
-  {
-  "id": "geo_002",
-  "title": "이등변 직각삼각형의 변의 길이",
-  "image": "geo_001.png",
-  "question": "다음 그림에서 ∠A = 90°, ∠B = 45°이다. AB = 6 cm일 때 AC의 길이를 구하시오.",
-  "solution": [
-    "삼각형 ABC는 직각삼각형이다.",
-    "∠B = 45°이므로 ∠C도 45°이다.",
-    "따라서 이등변 직각삼각형이다.",
-    "이등변 직각삼각형에서 두 직각변의 길이는 같다.",
-    "AB = AC 이므로 AC = 6 cm이다."
-  ],
-  "tags": ["직각삼각형", "이등변삼각형", "각의 크기"],
-  "grade": "중2",
-  "difficulty": 1,
-  "template": "problem_master.html"
-}
-]
+    {
+      "id": "geo_301_01",
+      "title": "이등변 직각삼각형의 성질",
+      "image": "geo_001.png",
+      "question": "다음 그림에서 ∠A = 90°, ∠B = 45°이다. AB = 6 cm일 때 AC의 길이를 구하시오.",
+      "solution": [
+        "삼각형 ABC는 ∠A = 90°인 직각삼각형이다.",
+        "∠B = 45°이므로 ∠C도 45°이다.",
+        "따라서 이 삼각형은 이등변 직각삼각형이다.",
+        "이등변 직각삼각형에서 두 직각변의 길이는 서로 같다.",
+        "AB = AC 이므로 AC = 6 cm이다."
+      ],
+      "tags": ["직각삼각형", "이등변삼각형"],
+      "grade": "중2",
+      "difficulty": 1,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_301_02",
+      "title": "이등변 직각삼각형의 빗변",
+      "image": "geo_001.png",
+      "question": "다음 그림에서 AB = 6 cm일 때 BC의 길이를 구하시오.",
+      "solution": [
+        "삼각형 ABC는 이등변 직각삼각형이다.",
+        "이등변 직각삼각형에서 빗변의 길이는 직각변의 길이에 √2를 곱한 값이다.",
+        "AB = 6 cm이므로",
+        "BC = 6√2 cm이다."
+      ],
+      "tags": ["피타고라스", "이등변직각삼각형"],
+      "grade": "중2",
+      "difficulty": 1,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_301_03",
+      "title": "직각삼각형의 넓이",
+      "image": "geo_001.png",
+      "question": "다음 그림에서 삼각형 ABC의 넓이가 18 cm²일 때 AB의 길이를 구하시오.",
+      "solution": [
+        "삼각형 ABC는 직각삼각형이다.",
+        "∠B = 45°이므로 이등변 직각삼각형이다.",
+        "따라서 AB = AC라고 할 수 있다.",
+        "삼각형의 넓이는 (1/2) × AB × AC 이다.",
+        "AB = AC = x라고 하면",
+        "(1/2) × x × x = 18",
+        "x² = 36",
+        "x = 6",
+        "따라서 AB = 6 cm이다."
+      ],
+      "tags": ["삼각형의넓이", "직각삼각형"],
+      "grade": "중2",
+      "difficulty": 2,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_301_04",
+      "title": "빗변에 대한 높이",
+      "image": "geo_001.png",
+      "question": "다음 그림에서 AB = 6 cm일 때, 점 B에서 선분 AC에 내린 수선의 길이를 구하시오.",
+      "solution": [
+        "삼각형 ABC는 이등변 직각삼각형이다.",
+        "이등변 직각삼각형에서 빗변에 대한 높이는 직각변의 길이를 √2로 나눈 값이다.",
+        "AB = 6 cm이므로",
+        "높이의 길이는 6 ÷ √2 이다.",
+        "이를 유리화하면 3√2 cm이다."
+      ],
+      "tags": ["수선", "이등변직각삼각형"],
+      "grade": "중3",
+      "difficulty": 2,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_301_05",
+      "title": "좌표평면에서의 직각삼각형",
+      "image": "geo_001.png",
+      "question": "점 A를 (0,0), 점 B를 (6,0)에 두고, 점 C를 제1사분면에 둘 때 점 C의 좌표를 구하시오.",
+      "solution": [
+        "삼각형 ABC는 이등변 직각삼각형이다.",
+        "따라서 AB = AC = 6이다.",
+        "점 A가 (0,0)이므로 AC는 y축 방향으로 6만큼 이동한 점이다.",
+        "따라서 점 C의 좌표는 (0,6)이다."
+      ],
+      "tags": ["좌표평면", "이등변직각삼각형"],
+      "grade": "중3",
+      "difficulty": 3,
+      "template": "problem_master.html"
+    }
+  ]
 }
