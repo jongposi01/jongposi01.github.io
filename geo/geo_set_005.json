@@ -1,0 +1,66 @@
+{
+  "set": "geo_set_701",
+  "version": 1,
+  "problems": [
+    {
+      "id": "geo_701_01",
+      "title": "사각형의 내각의 합을 이용한 미지의 각 구하기",
+      "image": "https://jongposi01.github.io/geo/img/geo_quad_70_70_right.png",
+      "question": "다음 사각형 A–F–E–B에서 ∠A = 70°, ∠B = 70°, ∠E = 90°일 때 ∠F의 크기를 구하시오.",
+      "solution": [
+        "사각형의 네 내각의 합은 항상 360°이다.",
+        "주어진 각의 합은 70° + 70° + 90° = 230°이다.",
+        "따라서 ∠F = 360° − 230° = 130°이다."
+      ],
+      "tags": ["사각형", "내각의합"],
+      "grade": "중2",
+      "difficulty": 1,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_701_02",
+      "title": "사각형에서 각의 종류 분류하기",
+      "image": "https://jongposi01.github.io/geo/img/geo_quad_70_70_right.png",
+      "question": "다음 사각형에서 예각, 직각, 둔각의 개수를 각각 구하시오.",
+      "solution": [
+        "∠A와 ∠B는 각각 70°로 예각이다.",
+        "∠E는 90°로 직각이다.",
+        "∠F는 130°로 둔각이다."
+      ],
+      "tags": ["각의종류"],
+      "grade": "중2",
+      "difficulty": 1,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_701_03",
+      "title": "밑변의 두 각이 같은 사각형의 기하적 의미",
+      "image": "https://jongposi01.github.io/geo/img/geo_quad_70_70_right.png",
+      "question": "∠A와 ∠B의 크기가 같은 이유를 사각형의 형태를 이용하여 설명하시오.",
+      "solution": [
+        "밑변 AB를 기준으로 양쪽 변이 비슷한 방향으로 기울어져 있다.",
+        "이로 인해 밑변과 이루는 각의 크기가 같아진다.",
+        "따라서 ∠A와 ∠B는 같은 크기를 가진다."
+      ],
+      "tags": ["같은각", "사각형"],
+      "grade": "중2",
+      "difficulty": 2,
+      "template": "problem_master.html"
+    },
+    {
+      "id": "geo_701_04",
+      "title": "직각을 포함한 사각형의 성질 판단",
+      "image": "https://jongposi01.github.io/geo/img/geo_quad_70_70_right.png",
+      "question": "점 E에서 직각이 존재할 때 이 사각형이 평행사변형이 될 수 없는 이유를 설명하시오.",
+      "solution": [
+        "평행사변형은 마주보는 각이 서로 같다.",
+        "이 사각형은 한 각만 직각이다.",
+        "따라서 평행사변형의 조건을 만족하지 않는다."
+      ],
+      "tags": ["평행사변형", "직각"],
+      "grade": "중3",
+      "difficulty": 2,
+      "template": "problem_master.html"
+    }
+  ]
+}
