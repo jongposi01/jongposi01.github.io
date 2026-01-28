@@ -1,5 +1,5 @@
 {
-  "indexVersion": 15,
+  "indexVersion": 16,
   "sets": [
     { "file": "geo_set_001.json", "count": 50, "version": 8 },
     { "file": "geo_set_002.json", "count": 50, "version": 7 },
@@ -7,6 +7,6 @@
     { "file": "geo_set_004.json", "count": 50, "version": 2 },
     { "file": "geo_set_005.json", "count": 50, "version": 2 },
     { "file": "geo_set_006.json", "count": 50, "version": 2 },
-    { "file": "geo_set_007.json", "count": 50, "version": 2 }
+    { "file": "geo_set_007.json", "count": 50, "version": 3 }
   ]
 }
