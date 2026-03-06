@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>국립백두대간수목원 이용안내</title>
+    <style>
+        body {
+            font-family: "Noto Sans KR", Arial, sans-serif;
+            line-height: 1.65;
+            margin: 0;
+            padding: 16px;
+            background: #f7f8fa;
+            color: #222;
+        }
+
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 18px;
+            margin-bottom: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0 0 12px 0;
+            color: #1f4d2e;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 0 0 12px 0;
+            color: #245c38;
+            border-left: 5px solid #69a76d;
+            padding-left: 10px;
+        }
+
+        p {
+            margin: 6px 0;
+        }
+
+        .label {
+            font-weight: 700;
+            color: #333;
+        }
+
+        .info-list, .bullet-list {
+            margin: 8px 0 0 0;
+            padding-left: 18px;
+        }
+
+            .info-list li, .bullet-list li {
+                margin-bottom: 6px;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background: #eef7ef;
+            font-weight: 700;
+        }
+
+        .season-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .season-box {
+            background: #f8fbf8;
+            border: 1px solid #e4eee4;
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .season-title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #245c38;
+        }
+
+        .notice {
+            background: #fff8e8;
+            border: 1px solid #f1d58a;
+            color: #6b5200;
+            border-radius: 10px;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #1565c0;
+            text-decoration: none;
+        }
+
+        @media (max-width: 640px) {
+            .season-grid {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 12px;
+            }
+
+            .card {
+                padding: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+
+        <div class="card">
+            <h1>국립백두대간수목원</h1>
+            <p><span class="label">주소</span> 경북 봉화군 춘양면 춘양로 1501</p>
+            <p><span class="label">전화번호</span> 054-679-1000</p>
+            <p><span class="label">홈페이지</span> <a href="https://www.bdna.or.kr" target="_blank">www.bdna.or.kr</a></p>
+            <p><span class="label">위치</span> 위도 37.0081251009935 / 경도 128.829964008018</p>
+        </div>
+
+        <div class="card">
+            <h2>관람 안내</h2>
+            <p><span class="label">운영일</span> 화요일, 수요일, 목요일, 금요일, 토요일, 일요일</p>
+            <p><span class="label">휴관일</span> 월요일, 1월 1일, 설/추석 당일</p>
+            <div class="notice">
+                월요일이 공휴일인 경우 다음날 휴관합니다.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>입장료 안내</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>요금</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>성인</td>
+                        <td>5,000원</td>
+                    </tr>
+                    <tr>
+                        <td>청소년</td>
+                        <td>4,000원</td>
+                    </tr>
+                    <tr>
+                        <td>어린이</td>
+                        <td>3,000원</td>
+                    </tr>
+                    <tr>
+                        <td>장애인</td>
+                        <td>무료</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="label" style="margin-top:12px;">무료 입장 대상</p>
+            <ul class="bullet-list">
+                <li>만 6세 이하</li>
+                <li>65세 이상</li>
+                <li>장애인</li>
+                <li>국가유공자</li>
+                <li>독립유공자</li>
+                <li>기초생활수급자</li>
+                <li>국군의 날 입장 군인</li>
+                <li>어린이날 입장 어린이</li>
+                <li>5·18 민주유공자</li>
+                <li>다자녀가족</li>
+            </ul>
+
+            <p class="label" style="margin-top:12px;">할인 안내</p>
+            <ul class="bullet-list">
+                <li>봉화군민 / 다문화가정 : 50% 할인</li>
+                <li>20인 이상 단체 : 1,000원 할인</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>계절별 대표 수종</h2>
+            <div class="season-grid">
+                <div class="season-box">
+                    <div class="season-title">봄</div>
+                    <ul class="info-list">
+                        <li>개복수초</li>
+                        <li>동강할미꽃</li>
+                        <li>가침박달</li>
+                    </ul>
+                </div>
+
+                <div class="season-box">
+                    <div class="season-title">여름</div>
+                    <ul class="info-list">
+                        <li>털부처꽃</li>
+                        <li>긴산꼬리풀</li>
+                        <li>꽃창포</li>
+                    </ul>
+                </div>
+
+                <div class="season-box">
+                    <div class="season-title">가을</div>
+                    <ul class="info-list">
+                        <li>구절초</li>
+                        <li>산국</li>
+                        <li>숫잔대</li>
+                    </ul>
+                </div>
+
+                <div class="season-box">
+                    <div class="season-title">겨울</div>
+                    <ul class="info-list">
+                        <li>꼬리겨우살이</li>
+                        <li>물박달나무</li>
+                        <li>자작나무</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>교육 · 체험 프로그램</h2>
+            <p><span class="label">운영 여부</span> 운영</p>
+            <p><span class="label">프로그램</span> 자생여지도, 리틀포레스트, 우리 함께 탄소 제로</p>
+            <p><span class="label">예약 가능 여부</span> 가능</p>
+        </div>
+
+        <div class="card">
+            <h2>이용 유의사항</h2>
+            <p><span class="label">반려동물 동반</span> 불가</p>
+            <p><span class="label">안내견 동반</span> 가능</p>
+            <p><span class="label">등록일</span> 2017-05-22</p>
+            <p><span class="label">데이터 기준일자</span> 2022-11-02</p>
+        </div>
+
+    </div>
+</body>
+</html>
