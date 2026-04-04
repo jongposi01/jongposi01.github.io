@@ -1,0 +1,10 @@
+{
+  "indexVersion": 1,
+  "sets": [
+    { "file": "dongjak.json", "count": 50, "version": 1 },
+    { "file": "guro.json", "count": 50, "version": 1 },
+    { "file": "gwanak.json", "count": 50, "version": 1 },
+    { "file": "gwangjin.json", "count": 50, "version": 1 },
+    { "file": "seodaemun.json", "count": 50, "version": 1 }
+  ]
+}
