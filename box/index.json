@@ -1,10 +1,28 @@
 {
   "indexVersion": 1,
   "sets": [
+    { "file": "dongdaemun.json", "count": 50, "version": 1 },
     { "file": "dongjak.json", "count": 50, "version": 1 },
+    { "file": "eunpyeong.json", "count": 50, "version": 1 },
+    { "file": "gangbuk.json", "count": 50, "version": 1 },
+    { "file": "gangdong.json", "count": 50, "version": 1 },
+    { "file": "gangnam.json", "count": 50, "version": 1 },
+    { "file": "gangseo.json", "count": 50, "version": 1 },
+    { "file": "geumcheon.json", "count": 50, "version": 1 },
     { "file": "guro.json", "count": 50, "version": 1 },
     { "file": "gwanak.json", "count": 50, "version": 1 },
     { "file": "gwangjin.json", "count": 50, "version": 1 },
-    { "file": "seodaemun.json", "count": 50, "version": 1 }
+    { "file": "jongno.json", "count": 50, "version": 1 },
+    { "file": "jungnang.json", "count": 50, "version": 1 },
+    { "file": "mapo.json", "count": 50, "version": 1 },
+    { "file": "seodaemun.json", "count": 50, "version": 1 },
+    { "file": "seongbuk.json", "count": 50, "version": 1 },
+    { "file": "seongdong.json", "count": 50, "version": 1 },
+    { "file": "songpa.json", "count": 50, "version": 1 },
+    { "file": "yangcheon.json", "count": 50, "version": 1 },
+    { "file": "yeongdeungpo.json", "count": 50, "version": 1 },
+    { "file": "yongsan.json", "count": 50, "version": 1 }
   ]
 }
+
+
