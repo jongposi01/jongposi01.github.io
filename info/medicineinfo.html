@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f9fb;
+      --paper: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --line: #dfe6ee;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Roboto, sans-serif;
+      line-height: 1.72;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+
+    main {
+      width: min(920px, 100%);
+      margin: 0 auto;
+      padding: 32px 18px 56px;
+    }
+
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: clamp(22px, 5vw, 48px);
+      box-shadow: 0 14px 36px rgba(17, 24, 39, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      font-size: 21px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 22px 0 8px;
+      font-size: 17px;
+      line-height: 1.4;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 8px 0 14px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .meta {
+      margin-bottom: 26px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .notice {
+      margin: 22px 0;
+      padding: 16px 18px;
+      border: 1px solid #b9d2ff;
+      border-radius: 8px;
+      background: #eef5ff;
+      color: #1f3b73;
+    }
+
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      margin: 12px 0 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 620px;
+      background: #fff;
+    }
+
+    th,
+    td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f1f5f9;
+      font-weight: 700;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .footer {
+      margin-top: 34px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        padding: 14px 10px 34px;
+      }
+
+      article {
+        padding: 22px 16px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>개인정보처리방침</h1>
+      <p class="meta">시행일: 2026년 5월 25일</p>
+
+      <p>
+        가벼운의약품조회(이하 "앱")는 이용자의 개인정보를 중요하게 생각하며,
+        개인정보 보호 관련 법령을 준수하기 위해 다음과 같이 개인정보처리방침을
+        안내합니다.
+      </p>
+
+      <div class="notice">
+        앱은 회원가입, 로그인, 자체 서버 저장 기능을 제공하지 않으며, 의약품
+        검색을 위해 이용자가 입력한 검색어를 공공데이터 조회 요청에 사용합니다.
+      </div>
+
+      <h2>1. 처리하는 개인정보 항목</h2>
+      <p>
+        앱은 이용자를 직접 식별할 수 있는 이름, 주민등록번호, 연락처, 주소,
+        결제정보 등을 자체적으로 수집하거나 저장하지 않습니다.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>구분</th>
+              <th>처리 항목</th>
+              <th>처리 목적</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>의약품 조회</td>
+              <td>품목명, 업체명, 보험코드 등 이용자가 입력한 검색어</td>
+              <td>공공데이터 API를 통한 의약품 정보 검색</td>
+            </tr>
+            <tr>
+              <td>광고 제공</td>
+              <td>광고 식별자, 기기 정보, 앱 이용 정보 등 광고 SDK가 처리하는 정보</td>
+              <td>맞춤형 또는 일반 광고 제공, 광고 성과 측정, 부정 이용 방지</td>
+            </tr>
+            <tr>
+              <td>앱 업데이트</td>
+              <td>앱 버전, 기기 및 설치 상태 등 Google Play가 처리하는 정보</td>
+              <td>앱 업데이트 확인 및 안정적인 서비스 제공</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>2. 개인정보의 처리 목적</h2>
+      <ul>
+        <li>이용자가 입력한 조건에 맞는 의약품 허가 정보 조회</li>
+        <li>앱 내 광고 표시 및 광고 품질 개선</li>
+        <li>앱 오류 예방, 보안 유지, 업데이트 제공 등 서비스 운영</li>
+      </ul>
+
+      <h2>3. 개인정보의 보유 및 이용 기간</h2>
+      <p>
+        앱은 이용자가 입력한 검색어를 자체 서버에 저장하지 않습니다. 다만,
+        Google AdMob, Google Play 등 제3자 서비스에서 처리하는 정보는 각
+        서비스 제공자의 정책에 따라 보관 및 삭제될 수 있습니다.
+      </p>
+
+      <h2>4. 개인정보의 제3자 제공</h2>
+      <p>
+        앱은 이용자의 개인정보를 자체적으로 제3자에게 판매하거나 제공하지
+        않습니다. 단, 의약품 정보 조회, 광고 제공, 앱 업데이트 등 앱 기능 제공을
+        위해 아래 외부 서비스가 이용될 수 있습니다.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>제공받는 자</th>
+              <th>이용 목적</th>
+              <th>관련 정책</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>공공데이터포털 및 식품의약품안전처 API</td>
+              <td>의약품 정보 조회</td>
+              <td>공공데이터포털 이용 정책</td>
+            </tr>
+            <tr>
+              <td>Google AdMob</td>
+              <td>앱 내 광고 제공 및 광고 성과 측정</td>
+              <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 개인정보처리방침</a></td>
+            </tr>
+            <tr>
+              <td>Google Play</td>
+              <td>앱 업데이트 확인 및 배포</td>
+              <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 개인정보처리방침</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>5. 개인정보 처리의 위탁</h2>
+      <p>
+        앱은 자체적으로 개인정보 처리 업무를 외부 업체에 위탁하지 않습니다.
+        다만 광고 및 앱 배포 기능을 위해 Google 서비스가 사용되며, 해당 서비스의
+        정보 처리는 Google의 개인정보처리방침 및 약관을 따릅니다.
+      </p>
+
+      <h2>6. 개인정보의 파기</h2>
+      <p>
+        앱은 이용자의 개인정보를 자체 서버에 저장하지 않으므로 별도의 파기
+        절차를 운영하지 않습니다. 이용자의 기기에 일시적으로 남을 수 있는 앱
+        데이터는 앱 삭제 또는 기기 설정의 앱 데이터 삭제 기능을 통해 삭제할 수
+        있습니다.
+      </p>
+
+      <h2>7. 이용자와 법정대리인의 권리</h2>
+      <p>
+        이용자는 언제든지 앱 삭제, 앱 데이터 삭제, 광고 맞춤설정 제한 등을 통해
+        개인정보 처리에 대한 권리를 행사할 수 있습니다. Google 계정 및 광고
+        설정과 관련된 권리는 Google 계정 설정에서 관리할 수 있습니다.
+      </p>
+
+      <h2>8. 아동의 개인정보</h2>
+      <p>
+        앱은 아동을 대상으로 개인정보를 직접 수집하지 않습니다. 만 14세 미만
+        아동의 개인정보가 처리되었다고 판단되는 경우, 보호자는 개발자에게
+        문의하여 필요한 조치를 요청할 수 있습니다.
+      </p>
+
+      <h2>9. 개인정보 보호를 위한 조치</h2>
+      <ul>
+        <li>불필요한 개인정보 입력 기능 최소화</li>
+        <li>네트워크 통신을 통한 공공데이터 조회 시 HTTPS 기반 API 사용</li>
+        <li>앱 권한을 서비스 제공에 필요한 범위로 제한</li>
+      </ul>
+
+      <h2>10. 개인정보 보호책임자 및 문의</h2>
+      <p>
+        개인정보처리방침 또는 앱 이용 중 개인정보와 관련한 문의가 있는 경우
+        Google Play 스토어에 표시된 개발자 연락처를 통해 문의할 수 있습니다.
+      </p>
+      <ul>
+        <li>앱 이름: 가벼운의약품조회</li>
+        <li>문의: jscmik01@gmail.com</li>
+      </ul>
+
+      <h2>11. 개인정보처리방침의 변경</h2>
+      <p>
+        본 개인정보처리방침은 관련 법령, 앱 기능, 외부 서비스 정책 변경에 따라
+        수정될 수 있습니다. 변경 사항은 앱 또는 배포 페이지를 통해 안내합니다.
+      </p>
+
+      <p class="footer">
+        본 방침은 2026년 5월 25일부터 적용됩니다.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
